@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.jupyter_env/
+local_env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and local environment settings
+logs/
+*.log
+*.out
+*.err
+.env
+.envrc
+*.ini
+*.toml
+*.cfg
+
+# Cache files
+.cache/
+*.pyc
+*.pyo
+
+# Editor and IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# macOS specific files
+.DS_Store
+
+# Coverage and testing
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# MyPy type checking cache
+.mypy_cache/
+
+# Local database files
+*.sqlite3
+*.db
+
+# Docker and CI/CD related
+.dockerignore
+.travis.yml
+.github/
+
+# Anaconda / Conda specific files
+*.ipynb_checkpoints/
+
+**/local_env/
+
+*~
